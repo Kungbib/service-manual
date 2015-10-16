@@ -1,0 +1,11 @@
+<ul class="page-list">
+  {% for page in site.pages %}
+    {% if page.layout == 'guide' %}
+    <li>
+      <div class="data">
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      </data>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

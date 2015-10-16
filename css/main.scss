@@ -1,0 +1,54 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+body {
+  background-color: #F5F5F5;
+}
+
+.page-list {
+  border-radius: 0.5em;
+  border: solid #ccc;
+  border-width: 0px 0px 1px 0px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  list-style: none;
+  width: 100%;
+  li {
+    display: table;
+    padding: 1em;
+    .logo {
+      display: table-cell;
+      vertical-align: middle;
+      img {
+        height: 75px;
+        margin: 0px;
+      }
+    }
+    .data {
+      padding-left: 2em;
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 2em;
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+body.guide {
+  .page-list {
+    font-size: 0.5em;
+    margin-top: 2em;
+    li {
+      img {
+        height: 45px;
+      }
+    }
+  }
+}
