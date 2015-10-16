@@ -7,15 +7,17 @@ authormail: ola.blissing@kb.se
 icon: paint-brush
 ---
 
-[http://kungbib.github.io/frontend-guide](Redirect)
+### Dokumentation för stilguide
 
-##Exempel
+Den kompletta stilguiden finns [här](http://kungbib.github.io/frontend-guide).
+
+### Checklista
 
 * Tillgänglighet har testats
 * Alla länkar fungerar [https://validator.w3.org/checklink]
 * Analys av webbanvändning
 * Testad i supportade browsers och plattformar
-* * [https://validator.w3.org/mobile/]
+* * [Validering för mobil](https://validator.w3.org/mobile/)
 * Automatiserade tester är på plats
 * Användartester har genomförts
 * Alla sidor och sidtitlar har korrekt meta beskrivning
