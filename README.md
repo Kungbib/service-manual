@@ -35,11 +35,11 @@ För att din sida ska läsas in korrekt av template-generatorn så behöver du l
     
 #### Förklaring
 
-  ``layout`` : Här matar du in vilken template din sida ska använda. Detta reglerar även var din sida kommer att dyka upp. Eftersom min sida är en guide så ska den använda layouten `guide`. Detta gör att den anropar de korrekta HTML-elementen och även att sidan dyker upp i våran lista på Guider.
+  ``layout`` : Här anger du in vilken template din sida ska använda. Detta reglerar även var din sida kommer att dyka upp. Eftersom min sida är en guide så ska den använda layouten `guide`. Detta gör att den anropar rätt template och även att sidan dyker upp i vår lista över Guider.
   
-  ``title`` : Titel på guiden
+  ``title`` : Titel på sidan
   
-  ``permalink`` : Vilken URL som ska gälla för din guide
+  ``permalink`` : Vilken URL som ska gälla för din sida
   
   ``author`` : Namn på kontaktperson
   
