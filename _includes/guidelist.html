@@ -1,10 +1,16 @@
+<h2>Guider</h2>
 <ul class="page-list">
   {% for page in site.pages %}
     {% if page.layout == 'guide' %}
     <li>
+      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+      <div class="logo">
+        <i class="fa fa-fw fa-{{ page.icon }}"></i>
+      </div>
       <div class="data">
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      </data>
+        {{ page.title }}
+      </div>
+      </a>
     </li>
     {% endif %}
   {% endfor %}
