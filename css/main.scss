@@ -3,9 +3,19 @@
 ---
 @charset "utf-8";
 
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: #F5F5F5;
-  min-height: 100vh;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -150px;
+  padding: 0 0 150px;
 }
 
 main {
@@ -43,11 +53,9 @@ main {
 
 footer {
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
-body.guide {
+.sidebar {
   .page-list {
     font-size: 0.5em;
     margin-top: 2em;
