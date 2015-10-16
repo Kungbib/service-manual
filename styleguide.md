@@ -4,7 +4,7 @@ title: Stilguide
 permalink: /stilguide/
 author: Ola Blissing
 authormail: ola.blissing@kb.se
-icon: image
+icon: paint-brush
 ---
 
 [http://kungbib.github.io/frontend-guide](Redirect)

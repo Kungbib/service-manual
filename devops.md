@@ -2,7 +2,7 @@
 layout: guide
 title: Devops
 permalink: /devops/
-icon: cog
+icon: terminal
 ---
 
 Something
