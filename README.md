@@ -18,7 +18,11 @@ När du är nöjd med dina ändringar så trycker du på knappen "Commit changes
 
 ### Skapa ny sida
 
-För att skapa en ny sida, tryck på + ovanför mappstrukturen i repositoriet. Döp filen till ``pagename.md`` (byt ut pagename).
+För att skapa en ny sida, tryck på + ovanför mappstrukturen i repositoriet.
+
+![Screenshot of new file button](http://kungbib.github.io/service-manual/assets/readme/screenshot_new_file.png)
+
+Döp filen till ``pagename.md`` (byt ut pagename).
 
 För att din sida ska läsas in korrekt av template-generatorn så behöver du lägga till ett par rader metadata ovanför ditt innehåll.
 
