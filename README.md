@@ -18,7 +18,7 @@ När du är nöjd med dina ändringar så trycker du på knappen "Commit changes
 
 ### Skapa ny sida
 
-För att skapa en ny sida behöver du klona ner respositoriet och lägga till en egen fil som du döper till ``pagename.md`` (byt ut pagename).
+För att skapa en ny sida, tryck på + ovanför mappstrukturen i repositoriet. Döp filen till ``pagename.md`` (byt ut pagename).
 
 För att din sida ska läsas in korrekt av template-generatorn så behöver du lägga till ett par rader metadata ovanför ditt innehåll.
 
@@ -33,7 +33,7 @@ För att din sida ska läsas in korrekt av template-generatorn så behöver du l
     icon: image
     ---
     
-#### Förklaring
+##### Förklaring
 
   ``layout`` : Här anger du in vilken template din sida ska använda. Detta reglerar även var din sida kommer att dyka upp. Eftersom min sida är en guide så ska den använda layouten `guide`. Detta gör att den anropar rätt template och även att sidan dyker upp i vår lista över Guider.
   
