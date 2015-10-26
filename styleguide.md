@@ -13,7 +13,7 @@ Den kompletta stilguiden finns [här](http://kungbib.github.io/frontend-guide).
 
 ### Checklista för deploy
 
-* Tillgänglighet har testats med [Google Accessibility Tools] (https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
+* Tillgänglighet har testats med [Google Accessibility Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
 * Alla länkar fungerar [https://validator.w3.org/checklink]
 * Analys av webbanvändning är uppsatt.
 * Testad i supportade browsers och plattformar
