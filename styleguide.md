@@ -20,8 +20,20 @@ Den [kompletta stilguiden](http://kungbib.github.io/frontend-guide) ligger för 
 * Testad i supportade browsers och plattformar
 * * [Validering för mobil](https://validator.w3.org/mobile/)
 * Automatiserade tester är på plats och körda
+* Tillgänglighet har testats.
+  * [Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
+* Alla länkar fungerar.
+  * [W3C Link Checker](https://validator.w3.org/checklink)
+* Analys av webbanvändning.
+  * [analytics.kb.se](http://analytics.kb.se)
+* Testad i supportade browsers och plattformar.
+  * [Validering för mobil](https://validator.w3.org/mobile/)
+* Automatiserade tester.
 * Användartester har genomförts
-* Sidor och sidtitlar har korrekt meta-beskrivning
-* URL:er följer konventioner
-* Kontaktinformation i header och footer är uppdaterad
-* Funktion för att meddela användare om ev. Cookies
+* Sidtitlar är unika och speglar innehållet.
+  * https://support.google.com/webmasters/answer/35624?hl=en#3
+* Sidor har korrekt meta-beskrivning.
+  * https://support.google.com/webmasters/answer/35624?hl=en#1
+* Kontaktinformation är uppdaterad.
+* Funktion för att meddela användare om ev. Kakor.
+  * http://www.pts.se/cookies

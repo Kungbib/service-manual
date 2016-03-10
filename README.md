@@ -1,5 +1,5 @@
-# service-manual
-Checklistor och manualer för tjänsteutveckling.
+# Kungl. Bibliotekets service-manual
+Manual för tjänsteutveckling hos Kungl. Biblioteket
 
 
 ## Redigera innehållet
