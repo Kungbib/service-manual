@@ -2,12 +2,30 @@
 layout: default
 ---
 
-<div class="col-md-8">
-  <h1>{{ page.title }}</h1>
-  <small>Kontaktperson: <a href="mailto:{{ page.authormail }}">{{ page.author }}</a></small>
-  <hr>
-  {{ content }}
+<div class="col-md-3 sidebar col-md-push-9">
+  <h2>Innehåll</h2>
+  <ul>
+  {% for node in site.pages | sort: node.title %}
+  {% if node.section == page.section %}
+    {% if node.title == page.title %}
+    <li class="active">
+    {% else %}
+    <li>
+    {% endif %}
+    <a href="{{ node.url }}">{{ node.title }}</a>
+    </li>
+  {% endif %}
+  {% endfor %}
+  </ul>
+  <small>Innehållsansvarig: <a href="mailto:{{ page.authormail }}">{{ page.author }}</a></small>
 </div>
-<div class="col-md-4 sidebar">
-  {% include guidelist.html %}
+<div class="col-md-9 col-md-pull-3">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h1 class="panel-title">{{ page.title }}</h1>
+    </div>
+    <div class="panel-body">
+      {{ content }}
+    </div>
+  </div>
 </div>

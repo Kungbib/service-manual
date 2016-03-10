@@ -1,8 +1,9 @@
 ---
 layout: guide
-title: Devops
+title: DevOps
+section: devops
 permalink: /devops/
-icon: terminal
+icon: cogs
 ---
 
-Something
+Inget innehåll ännu...
