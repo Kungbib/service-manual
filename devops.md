@@ -3,7 +3,7 @@ layout: guide
 title: DevOps
 section: devops
 permalink: /devops/
-icon: cogs
+icon: server
 top: true
 ---
 
