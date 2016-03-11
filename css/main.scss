@@ -52,6 +52,7 @@ main {
     padding: 3px 10px;
     &.active {
       background-color: #333;
+      border-color: #FFF;
       font-weight: normal;
       a {
         color: #E2E2E2;
@@ -63,8 +64,8 @@ main {
     .logo {
       display: table-cell;
       vertical-align: middle;
-      font-size: 2em;
-      padding-right: 0.5em;
+      font-size: 2.5em;
+      padding-right: 0.3em;
     }
     .data {
       display: table-cell;
