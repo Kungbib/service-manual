@@ -30,23 +30,29 @@ För att din sida ska läsas in korrekt av template-generatorn så behöver du l
 
     ---
     layout: guide
+    section: styleguide
     title: Stilguide
-    permalink: /stilguide/
+    permalink: /styleguide/
     author: Ola Blissing
     authormail: ola.blissing@kb.se
-    icon: image
+    icon: paint-brush
+    top: true
     ---
     
 ##### Förklaring
 
-  ``layout`` : Här anger du in vilken template din sida ska använda. Detta reglerar även var din sida kommer att dyka upp. Eftersom min sida är en guide så ska den använda layouten `guide`. Detta gör att den anropar rätt template och även att sidan dyker upp i vår lista över Guider.
+  ``layout`` : Här anger du in vilken template din sida ska använda. Sannolikt ska du ange ``guide`` här.
+  
+  ``section`` : Vilken sektion din sida tillhör, sektionen har samma namn som mappen under ``_content`` (t ex ``styleguide`` eller ``communications``).
   
   ``title`` : Titel på sidan
   
-  ``permalink`` : Vilken URL som ska gälla för din sida
+  ``permalink`` : Vilken permalink som ska gälla för din sida. Följ mappstrukturen.
   
-  ``author`` : Namn på kontaktperson
+  ``top`` : Sätt denna till ``true`` om din sida är toppnivå för en sektion, annars ska du inte ange detta fältet.
   
-  ``authormail`` : Mail till kontaktpersonen
+  ``author`` : Gäller endast toppnivå för en sektion. Namn på kontaktperson.
   
-  ``icon`` : Ikon från [fontawesome](http://fontawesome.io/icons/), används bland annat till guidelistan.
+  ``authormail`` : Gäller endast toppnivå för en sektion. Mail till kontaktpersonen.
+  
+  ``icon`` : Gäller endast toppnivå för en sektion. Ikon från [fontawesome](http://fontawesome.io/icons/), används bland annat till navigeringslistan. Ange ikonens namn utan ``fa-``-prefixen 
