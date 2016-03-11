@@ -5,19 +5,36 @@ layout: default
 <div class="col-md-3 sidebar col-md-push-9">
   <h2>Innehåll</h2>
   <ul>
-  {% for node in site.pages | sort: node.title %}
-  {% if node.section == page.section %}
-    {% if node.title == page.title %}
-    <li class="active">
-    {% else %}
-    <li>
+  {% for node in site.pages %}
+    {% if node.section == page.section and node.top == true %}
+      {% if node.title == page.title %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+      <a href="{{ node.url }}">{{ node.title }}</a>
+      </li>
     {% endif %}
-    <a href="{{ node.url }}">{{ node.title }}</a>
-    </li>
-  {% endif %}
+  {% endfor %}
+  {% for node in site.pages %}
+    {% if node.section == page.section and node.top == None %}
+      {% if node.title == page.title %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+      <a href="{{ node.url }}">{{ node.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
   </ul>
-  <small>Innehållsansvarig: <a href="mailto:{{ page.authormail }}">{{ page.author }}</a></small>
+  <small>Innehållsansvarig:
+    {% for node in site.pages %}
+    {% if node.section == page.section and node.top == true %}
+    <a href="mailto:{{ node.authormail }}">{{ node.author }}</a>
+    {% endif %}
+    {% endfor %}
+  </small>
 </div>
 <div class="col-md-9 col-md-pull-3">
   <div class="panel panel-default">

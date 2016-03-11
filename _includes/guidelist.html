@@ -14,12 +14,12 @@
     </a>
   </li>
   {% for section in site.pages %}
-    {% if section.layout == 'guide' %}
-    {% if section.title == page.title %}
-    <li class="active">
-    {% else %}
-    <li>
-    {% endif %}
+    {% if section.top == true %}
+      {% if section.section == page.section %}
+        <li class="active">
+      {% else %}
+        <li>
+      {% endif %}
       <a class="page-link" href="{{ section.url | prepend: site.baseurl }}">
       <div class="logo">
         <i class="fa fa-fw fa-{{ section.icon }}"></i>

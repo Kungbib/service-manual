@@ -2,10 +2,11 @@
 layout: guide
 section: styleguide
 title: Stilguide
-permalink: /stilguide/
+permalink: /styleguide/
 author: Ola Blissing
 authormail: ola.blissing@kb.se
 icon: paint-brush
+top: true
 ---
 
 ### Dokumentation för stilguide

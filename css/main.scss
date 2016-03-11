@@ -49,11 +49,15 @@ main {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 3px 10px;
+    &.active {
+      background-color: #333;
+      font-weight: normal;
+      a {
+        color: #ccc;
+      }
+    }
     a {
       color: #333333;
-      &:hover {
-        color: #62878C;
-      }
     }
     .logo {
       display: table-cell;
