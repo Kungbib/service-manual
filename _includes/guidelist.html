@@ -1,5 +1,9 @@
 <ul class="page-list">
+  {% if page.title == 'index' %}
+  <li class="active">
+  {% else %}
   <li>
+  {% endif %}
     <a class="page-link" href="/service-manual/">
     <div class="logo">
       <i class="fa fa-fw fa-home"></i>
@@ -9,15 +13,19 @@
     </div>
     </a>
   </li>
-  {% for page in site.pages %}
-    {% if page.layout == 'guide' %}
+  {% for section in site.pages %}
+    {% if section.layout == 'guide' %}
+    {% if section.title == page.title %}
+    <li class="active">
+    {% else %}
     <li>
-      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+    {% endif %}
+      <a class="page-link" href="{{ section.url | prepend: site.baseurl }}">
       <div class="logo">
-        <i class="fa fa-fw fa-{{ page.icon }}"></i>
+        <i class="fa fa-fw fa-{{ section.icon }}"></i>
       </div>
       <div class="data">
-        {{ page.title }}
+        {{ section.title }}
       </div>
       </a>
     </li>
