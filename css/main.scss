@@ -46,6 +46,7 @@ main {
   li {
     display: inline-block;
     margin-right: 1em;
+    margin-bottom: 1em;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 3px 10px;
@@ -75,4 +76,8 @@ main {
 
 li.active {
   font-weight: bold;
+}
+
+.sidebar {
+  margin-bottom: 1em;
 }
