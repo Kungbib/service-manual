@@ -1,5 +1,5 @@
 # Site settings
-title: Kungl. Bibliotekets tjänstemanual
+title: Kungl. bibliotekets tjänstemanual
 description: > # this means to ignore newlines until "baseurl:"
   Manual för tjänsteutveckling hos Kungl. Biblioteket
 baseurl: "/service-manual" # the subpath of your site, e.g. /blog/

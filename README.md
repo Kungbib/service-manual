@@ -1,4 +1,4 @@
-# Kungl. Bibliotekets service-manual
+# Kungl. bibliotekets tjänstemanual
 Manual för tjänsteutveckling hos Kungl. Biblioteket
 
 
@@ -6,7 +6,7 @@ Manual för tjänsteutveckling hos Kungl. Biblioteket
 
 Manualen är genererad från markdown-filer för att det ska vara så enkelt som möjligt att redigera innehållet.
 
-För att redigera innehållet på en sida, tryck på en .md fil som ligger i roten av respositoriet. Då kommer du att få se markdown-filen i GitHubs preview. Klicka sedan på Pennan uppe till höger.
+För att redigera innehållet på en sida, navigera till mappen ``_content`` och en mapp som motsvarar den sektionen du vill redigera. Om du trycker på en fil med ändelsen ``.md`` kommer du att få se markdown-filen i GitHubs preview. Klicka sedan på Pennan uppe till höger.
 
 ![Screenshot of edit button](http://kungbib.github.io/service-manual/assets/readme/screenshot_edit.png)
 
