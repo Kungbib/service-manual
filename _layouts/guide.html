@@ -12,7 +12,7 @@ layout: default
       {% else %}
       <li>
       {% endif %}
-      <a href="{{ node.url }}">{{ node.title }}</a>
+      <a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
@@ -23,7 +23,7 @@ layout: default
       {% else %}
       <li>
       {% endif %}
-      <a href="{{ node.url }}">{{ node.title }}</a>
+      <a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
