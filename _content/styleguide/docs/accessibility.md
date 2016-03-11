@@ -21,7 +21,6 @@ Lyft fram det [viktigaste i texten](http://webbriktlinjer.se/r/51-lyft-fram-det-
 Skriv på [begriplig svenska](http://webbriktlinjer.se/r/10-ge-all-information-pa-begriplig-svenska/).
 Testa texter på användare med användbarhetstester.
 
-
 ## Plattformsoberoende
 
 Den programvara och de plattformar som brukas av användarna förändras ständigt. För att minimera risken att utesluta användare på grund av deras val av och tillgång till webbläsare, operativsystem och annan teknik ska webbgränssnitt utformas på ett [tekniskt oberoende sätt](http://webbriktlinjer.se/principer/tekniskt-oberoende/).
