@@ -9,6 +9,4 @@ icon: comment
 top: true
 ---
 
-## Skrivregler
 
-Här finns skrivregler
