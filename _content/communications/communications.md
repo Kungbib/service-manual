@@ -3,10 +3,11 @@ layout: guide
 title: Kommunikation
 section: communications
 permalink: /communications/
-author: 
-authormail: 
+author: Olle
+authormail: Olle@kb.se
 icon: comment
 top: true
 ---
+
 
 
