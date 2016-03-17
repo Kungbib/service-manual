@@ -9,4 +9,6 @@ icon: comment
 top: true
 ---
 
-Inget innehåll ännu...
+## Skrivregler
+
+Här finns skrivregler
