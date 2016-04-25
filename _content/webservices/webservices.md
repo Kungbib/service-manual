@@ -5,7 +5,7 @@ section: webservices
 permalink: /webservices/
 author: Niklas Lindström
 authormail: niklas.lindstrom@kb.se
-icon: keyboard-o
+icon: puzzle-piece
 top: true
 ---
 
