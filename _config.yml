@@ -1,7 +1,7 @@
 # Site settings
-title: Kungl. bibliotekets tjänstemanual
+title: Kungliga bibliotekets tjänstemanual
 description: > # this means to ignore newlines until "baseurl:"
-  Manual för tjänsteutveckling hos Kungl. Biblioteket
+  Manual för tjänsteutveckling hos Kungliga Biblioteket
 baseurl: "/service-manual" # the subpath of your site, e.g. /blog/
 url: "http://kungbib.github.io" # the base hostname & protocol for your site
 github_username:  kungbib
